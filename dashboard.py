@@ -6,6 +6,7 @@ import numpy as np
 import scipy as sc
 import math as m
 from babel.numbers import format_currency
+import gdown
 sns.set(style='dark')
 
 def create_daily_orders_df(df):
@@ -93,8 +94,18 @@ def create_rfm_df(df):
     
     return rfm_df
 
-all_df = pd.read_csv("all_data.csv")
+# File ID from Google Drive link
+file_id = "1DmT9wxs8z8D7wV3yqsn55BnPB2m7QnJV"
 
+# URL format for direct download
+url = f"https://drive.google.com/uc?id={file_id}"
+
+# Download the CSV file
+output = "downloaded_file.csv"
+gdown.download(url, output, quiet=False)
+
+# Read into DataFrame
+all_df = pd.read_csv(output)
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
 all_df.reset_index(inplace=True)
