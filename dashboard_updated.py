@@ -6,6 +6,7 @@ import numpy as np
 import scipy as sc
 import math as m
 from babel.numbers import format_currency
+import gdown
 sns.set(style='dark')
 
 def create_daily_orders_df(df):
