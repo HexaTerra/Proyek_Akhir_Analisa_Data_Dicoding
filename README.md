@@ -31,3 +31,6 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard_updated.py
 ```
+
+## URL
+You can access the dashboard here [Dashboard of Brazilian E-Commerce Public Dataset by Olist :sparkles:](https://nrgehodeejcfjt3ymgndek.streamlit.app/).
