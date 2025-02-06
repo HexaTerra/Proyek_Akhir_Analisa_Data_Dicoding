@@ -157,7 +157,18 @@ def group_data_by_date_diff(df, date_diff):
         with tab_count4:
             quarter_(df)
 
-all_df = pd.read_csv("all_data.csv")
+# File ID from Google Drive link
+file_id = "1DmT9wxs8z8D7wV3yqsn55BnPB2m7QnJV"
+
+# URL format for direct download
+url = f"https://drive.google.com/uc?id={file_id}"
+
+# Download the CSV file
+output = "downloaded_file.csv"
+gdown.download(url, output, quiet=False)
+
+# Read into DataFrame
+all_df = pd.read_csv(output)
 
 datetime_columns = ["order_purchase_timestamp", "order_delivered_customer_date"]
 all_df.sort_values(by="order_purchase_timestamp", inplace=True)
