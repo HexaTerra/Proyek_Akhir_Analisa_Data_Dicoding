@@ -95,13 +95,11 @@ def create_rfm_df(df):
     return rfm_df
 
 # File ID from Google Drive link
-file_id = "1DmT9wxs8z8D7wV3yqsn55BnPB2m7QnJV"
-
-# URL format for direct download
+file_id = "1O05uX_AkbrFRh0zXXzh5fU7bteSbBtgG"
 url = f"https://drive.google.com/uc?id={file_id}"
 
-# Download the CSV file
-output = "downloaded_file.csv"
+# Download the file
+output = "data.csv"
 gdown.download(url, output, quiet=False)
 
 # Read into DataFrame
