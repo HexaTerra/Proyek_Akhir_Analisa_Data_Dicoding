@@ -97,6 +97,7 @@ fonttools @ file:///C:/b/abs_f47gnfqnx0/croot/fonttools_1713551644747/work
 frozendict @ file:///C:/b/abs_2alamqss6p/croot/frozendict_1713194885124/work
 frozenlist @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/frozenlist_1699557027827/work
 fsspec @ file:///C:/b/abs_02vh2bpxfo/croot/fsspec_1724855601370/work
+gdown==5.2.0
 gensim @ file:///C:/b/abs_efsh9stgvi/croot/gensim_1725376635600/work
 gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
 GitPython @ file:///C:/b/abs_2bkslnqz4i/croot/gitpython_1720455044865/work
@@ -227,6 +228,7 @@ psutil @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/psutil_16
 ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
 pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
 py-cpuinfo @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/py-cpuinfo_1699495567147/work
+pyaml==25.1.0
 pyarrow @ file:///C:/b/abs_cbc4sg_1e0/croot/pyarrow_1721664257308/work/python
 pyasn1 @ file:///Users/ktietz/demo/mc3/conda-bld/pyasn1_1629708007385/work
 pyasn1-modules==0.2.8
@@ -295,6 +297,7 @@ ruamel.yaml.clib @ file:///C:/b/abs_5fk8zi6n09/croot/ruamel.yaml.clib_1727769837
 s3fs @ file:///C:/b/abs_ddtjx92ddb/croot/s3fs_1724924140381/work
 scikit-image @ file:///C:/b/abs_85dh_ywewv/croot/scikit-image_1726762076100/work
 scikit-learn @ file:///C:/b/abs_aajc9f7v6r/croot/scikit-learn_1722067652693/work/dist/scikit_learn-1.5.1-cp312-cp312-win_amd64.whl#sha256=96ed6defb86c154d2ff360afdbf0c37c33c4c729d4a15c9d8ada0b70fd817816
+scikit-optimize==0.10.2
 scipy @ file:///C:/b/abs_efv75hqhju/croot/scipy_1717521501389/work/dist/scipy-1.13.1-cp312-cp312-win_amd64.whl#sha256=b29dba691773ea983857b31cad894f31623348583937b6f03783facfd7abc734
 Scrapy @ file:///C:/b/abs_b407wrcuij/croot/scrapy_1708714755460/work
 seaborn @ file:///C:/b/abs_ca2mi1rgmn/croot/seaborn_1718303534355/work
@@ -369,6 +372,7 @@ xlwings @ file:///C:/b/abs_bc7ro1xk70/croot/xlwings_1725400109105/work
 xyzservices @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/xyzservices_1699548906163/work
 yapf @ file:///C:/b/abs_8aidayep18/croot/yapf_1708964372649/work
 yarl @ file:///C:/b/abs_00rcuicx5k/croot/yarl_1726015884215/work
+yellowbrick==1.5
 zict @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zict_1699548979005/work
 zipp @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zipp_1707493775475/work
 zope.interface @ file:///C:/Users/dev-admin/perseverance-python-buildout/croot/zope.interface_1699497164709/work
